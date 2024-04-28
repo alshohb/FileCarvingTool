@@ -12,3 +12,6 @@ This tool automatically extracts segments of a binary file based on specified he
 Compile the tool using:
 ```bash
 g++ -o FileCarvingTool FileCarvingTool.cpp
+Run the tool with:
+
+./FileCarvingTool <input_file> <header_hex> <footer_hex>
