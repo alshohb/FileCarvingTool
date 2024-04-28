@@ -11,12 +11,12 @@ This tool automatically extracts segments of a binary file based on specified he
 ## Usage Instructions
 Compile the tool using the following command:
 
-'g++ -o FileCarvingTool FileCarvingTool.cpp'
+`g++ -o FileCarvingTool FileCarvingTool.cpp`
 
 
 Then run the tool with:
 
-'./FileCarvingTool <input_file> <header_hex> <footer_hex>'
+`./FileCarvingTool <input_file> <header_hex> <footer_hex>`
 
 
 Replace the placeholders with actual values:
