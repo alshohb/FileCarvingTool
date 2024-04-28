@@ -14,5 +14,7 @@ Compile the tool using:
 g++ -o FileCarvingTool FileCarvingTool.cpp
 
 Run the tool with:
-
 ./FileCarvingTool <input_file> <header_hex> <footer_hex>
+<input_file>: Path to the binary file you want to process.
+<header_hex>: Hexadecimal string representing the header pattern.
+<footer_hex>: Hexadecimal string representing the footer pattern.
