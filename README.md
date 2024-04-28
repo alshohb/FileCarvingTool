@@ -14,5 +14,5 @@ Compile the tool using:
 g++ -o FileCarvingTool FileCarvingTool.cpp
 
 Run the tool with:
-
+```bash
 ./FileCarvingTool <input_file> <header_hex> <footer_hex>
