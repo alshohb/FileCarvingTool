@@ -12,7 +12,7 @@ This tool automatically extracts segments of a binary file based on specified he
 Compile the tool using the following command:
 
 ```bash
-g++ -o FileCarvingTool FileCarvingTool.cpp
+g++ -o FileCarvingTool FileCarvingTool.cpp///
 
 Then run the tool with:
 
@@ -25,4 +25,3 @@ Replace the placeholders with actual values:
 <footer_hex>: Hexadecimal string representing the footer pattern.
 
 
-When you save this corrected text in your `README.md` file, ensure that the code blocks are properly terminated with triple backticks. This will make sure that the commands are formatted correctly in a code block when viewed on platforms like GitHub.
