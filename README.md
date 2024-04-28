@@ -11,17 +11,15 @@ This tool automatically extracts segments of a binary file based on specified he
 ## Usage Instructions
 Compile the tool using the following command:
 
-```bash
-g++ -o FileCarvingTool FileCarvingTool.cpp ```
+g++ -o FileCarvingTool FileCarvingTool.cpp
+
 
 Then run the tool with:
 
 ./FileCarvingTool <input_file> <header_hex> <footer_hex>
 
+
 Replace the placeholders with actual values:
-
-<input_file>: Path to the binary file you want to process.
-<header_hex>: Hexadecimal string representing the header pattern.
-<footer_hex>: Hexadecimal string representing the footer pattern.
-
-
+- `<input_file>`: Path to the binary file you want to process.
+- `<header_hex>`: Hexadecimal string representing the header pattern.
+- `<footer_hex>`: Hexadecimal string representing the footer pattern.
