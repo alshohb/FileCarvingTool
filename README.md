@@ -12,7 +12,7 @@ This tool automatically extracts segments of a binary file based on specified he
 Compile the tool using the following command:
 
 ```bash
-g++ -o FileCarvingTool FileCarvingTool.cpp '''
+g++ -o FileCarvingTool FileCarvingTool.cpp ```
 
 Then run the tool with:
 
