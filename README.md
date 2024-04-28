@@ -17,6 +17,7 @@ g++ -o FileCarvingTool FileCarvingTool.cpp
 Then run the tool with:
 
 ./FileCarvingTool <input_file> <header_hex> <footer_hex>
+
 Replace the placeholders with actual values:
 
 <input_file>: Path to the binary file you want to process.
