@@ -1,0 +1,70 @@
+# Executables and build directories
+FileCarvingTool.exe
+FileCarvingTool
+Debug/
+Release/
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.out
+*.i*86
+*.x86_64
+*.hex
+
+# Visual Studio specific files
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.user
+*.aps
+*.pch
+*.vs/
+*.vscode/
+*_i.c
+*_p.c
+*.ncb
+*.sdf
+*.sbr
+*.tlog
+*.log
+*.idb
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+
+# Test data and extracted files
+embed.dat
+extracted_0.*
+
+# Ignore settings for various editors
+.vs/
+.vscode/
+*.sublime-*
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Node modules
+node_modules/
